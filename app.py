@@ -204,7 +204,7 @@ html, body, [class*="css"] {
 @media (max-width: 768px) {
 
     .block-container {
-        padding: 0.6rem 0.7rem 2rem 0.7rem;
+        padding: 0.7rem 0.7rem 2rem 0.7rem;
     }
 
     .hero {
