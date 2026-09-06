@@ -42,7 +42,7 @@ html, body, [class*="css"] {
 /* Main container */
 
 .block-container {
-    padding-top: 0rem;
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
     max-width: 1250px;
 }
