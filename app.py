@@ -208,17 +208,22 @@ html, body, [class*="css"] {
     }
 
     .hero {
-        padding: 22px;
-        border-radius: 20px;
+        padding: 15px !important;
+        border-radius: 15px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        box-sizing: border-box !important;
 
     }
 
     .hero h1 {
-        font-size: 29px;
+        font-size: 22px !important;
     }
 
     .hero p {
-        font-size: 14px;
+        font-size: 12px !important;
     }
 
     .metric-card {
