@@ -209,9 +209,8 @@ html, body, [class*="css"] {
 
     .hero {
         padding: 15px;
-        width: 100%
         border-radius: 15px;
-        box-sizing: border-box
+
     }
 
     .hero h1 {
