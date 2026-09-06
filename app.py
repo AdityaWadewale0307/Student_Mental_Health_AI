@@ -14,7 +14,7 @@ from io import BytesIO
 st.set_page_config(
     page_title="Student Mental Health AI",
     page_icon="🧠",
-    layout="wide",
+    layout="centered",
     initial_sidebar_state="collapsed"
 )
 
@@ -204,21 +204,32 @@ html, body, [class*="css"] {
 @media (max-width: 768px) {
 
     .block-container {
-        padding: 0.7rem 0.7rem 2rem 0.7rem;
+        padding: 0.7rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     .hero {
-        padding: 22px;
-        border-radius: 20px;
-        
+        padding: 10px;
+        border-radius: 12px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .hero h1 {
-        font-size: 29px;
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 0 0 5px 0;
     }
 
     .hero p {
-        font-size: 14px;
+        font-size: 10px;
+        line-height: 1.3;
+        margin: 0;
     }
 
     .metric-card {
@@ -238,6 +249,7 @@ html, body, [class*="css"] {
         padding: 8px 10px;
     }
 }
+
 
 </style>
 """, unsafe_allow_html=True)
