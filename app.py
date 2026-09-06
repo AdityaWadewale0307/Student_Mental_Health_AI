@@ -208,13 +208,13 @@ html, body, [class*="css"] {
     }
 
     .hero {
-        padding: 15px;
+        padding: 10px;
         border-radius: 15px;
         
     }
 
     .hero h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .hero p {
