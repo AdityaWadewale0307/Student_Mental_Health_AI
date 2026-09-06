@@ -14,7 +14,7 @@ from io import BytesIO
 st.set_page_config(
     page_title="Student Mental Health AI",
     page_icon="🧠",
-    layout="centered",
+    layout="wide",
     initial_sidebar_state="collapsed"
 )
 
@@ -210,25 +210,15 @@ html, body, [class*="css"] {
     .hero {
         padding: 22px;
         border-radius: 20px;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        margin-left: 0;
-        margin-right: 0;
-        overflow: hidden;
         
     }
 
     .hero h1 {
         font-size: 29px;
-        line-height: 1.2;
-        word-wrap: break-word;
     }
 
     .hero p {
         font-size: 14px;
-        line-height: 1.4;
-        word-wrap: break-word;
     }
 
     .metric-card {
