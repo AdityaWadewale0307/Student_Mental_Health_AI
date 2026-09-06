@@ -204,32 +204,20 @@ html, body, [class*="css"] {
 @media (max-width: 768px) {
 
     .block-container {
-        padding: 0.7rem;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        overflow-x: hidden;
+        padding: 0.7rem 0.7rem 2rem 0.7rem;
     }
 
     .hero {
-        padding: 10px;
-        border-radius: 12px;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        overflow: hidden;
+        padding: 22px;
+        border-radius: 20px;
     }
 
     .hero h1 {
-        font-size: 18px;
-        line-height: 1.2;
-        margin: 0 0 5px 0;
+        font-size: 29px;
     }
 
     .hero p {
-        font-size: 10px;
-        line-height: 1.3;
-        margin: 0;
+        font-size: 14px;
     }
 
     .metric-card {
