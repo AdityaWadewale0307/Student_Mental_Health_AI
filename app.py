@@ -204,11 +204,11 @@ html, body, [class*="css"] {
 @media (max-width: 768px) {
 
     .block-container {
-        padding: 0.7rem 0.7rem 2rem 0.7rem;
+        padding: 0.6rem 0.7rem 2rem 0.7rem;
     }
 
     .hero {
-        padding: 25px;
+        padding: 22px;
         border-radius: 20px;
     }
 
@@ -217,7 +217,7 @@ html, body, [class*="css"] {
     }
 
     .hero p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .metric-card {
