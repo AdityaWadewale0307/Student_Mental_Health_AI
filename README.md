@@ -19,7 +19,7 @@ Add your deployed Streamlit URL here.
 
 Example:
 
-https://your-app-name.streamlit.app/
+[https://your-app-name.streamlit.app/](https://studentmentalhealthai-hxszue4paqruuertvjw7wr.streamlit.app/)
 
 ---
 
